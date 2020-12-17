@@ -27,7 +27,11 @@ class Home extends StatelessWidget {
       ),
 
       body: Center(
-        child: Text('Welcome to the world'),
+        child: Image(
+          image: AssetImage('assets/shree.jpg'),
+
+        )
+
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
